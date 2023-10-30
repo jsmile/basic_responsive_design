@@ -1,4 +1,3 @@
-import 'package:basic_responsive_design/src/app.dart';
 import 'package:flutter/material.dart';
 
 class NavigaionRailHome extends StatefulWidget {

@@ -14,7 +14,14 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const NavigaionRailHome(),
+      // LayoutBuilder 기본
+      // home: const BasicResponsiveA(title: 'Basic Rewponsive A'),
+
+      // NavigationRail 기본
+      // home: const NavigaionRailHome(),
+
+      // NavigationBar Indecator 기본
+      home: const BasicNaviBScaffold(),
     );
   }
 }
