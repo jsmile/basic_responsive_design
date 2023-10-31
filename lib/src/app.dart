@@ -21,7 +21,9 @@ class App extends StatelessWidget {
       // home: const NavigaionRailHome(),
 
       // NavigationBar Indecator 기본
-      home: const BasicNaviBScaffold(),
+      // home: const BasicNaviBScaffold(),
+      // Custome Side Navigation 기본
+      home: const CustomSideNaviScaffold(),
     );
   }
 }
